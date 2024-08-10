@@ -1,0 +1,506 @@
+
+
+@media screen and (max-width: 576px) {
+
+    body{
+    width: 393px;
+    height: 54px;
+    }
+    
+    .nav-parent{
+    width: 353px;
+    height: 43px;
+    margin-bottom: 50px;
+    }
+    
+    .home{
+    display: none;
+    }
+    .ham-burger{
+    display: block;
+    }
+    .ham-burger{
+    font-size: 30px;
+    }
+    
+    .banner-section{
+        width: 353px;
+    height: 335px;
+    
+    
+    }
+    
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+        }
+    
+    .banner-text{
+        width: 353px;
+        height: 335px;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .banner-text h1{
+        width: 353px;
+        height: 129px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-left: 0px;
+    
+    }
+    #banner-p{
+        width: 353px;
+        height: 129px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 28px 0px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+    .btn-class{
+        width: 352px;
+        height: 54px;
+        gap: 10px;
+    }
+    
+    .banner-btn-1{
+        width: 169px;
+        height: 54px;
+        margin: 0;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .banner-btn-2{
+        width: 169px;
+        height: 54px;
+        padding: 10px;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    
+    .btn-class btn-1 btn-2{
+        width: 169px;
+        height: 54px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0px;
+    }
+    
+    .banner-img{
+        width: 353px;
+        height: 588px;
+        position: absolute;
+        width: 353px;
+        height: 588px;
+        top: 490px;
+    }
+    .btn-1{
+        width: 206px;
+        height: 96px;
+        position: absolute;
+        margin-right: -200px;
+        margin-top: 200px;
+    
+    }
+    .btn-2{
+        width: 206px;
+        height: 96px;
+        position: absolute;
+        margin-left: -350px;
+        margin-top: 340px;
+    
+    }
+    
+    /* End banner section here */
+    
+    /* Start habit section here */
+    
+    .habit-container{
+        width: 338px;
+        height: 1216px;
+    }
+    
+    #text-container{
+        width: 318px;
+        height: 124px;
+        margin-top: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .habit-img-parent{
+        width: 338px;
+        height: 1216px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 580px;
+    }
+    .habit-img-parent{
+        width: 338px;
+        height: 121px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* End habit section here */
+    /* Start run section here */
+    #run-section-parent{
+        width: 353px;
+        height: 531px;
+        background-color:rgb(34, 34, 34) ;
+        display: flex;
+        flex-direction: column;
+        border-radius: 18px;
+        margin-top: 220px;
+        position: relative;
+        }
+    
+        .run-text-container{
+        width: 287px;
+        height: 290px;  
+        }
+    
+        .run-text-container p{
+            text-align: left;
+            margin: 0 0;
+        }
+    
+        #run-img{
+        width: 250px;
+        height: 170px;
+        position: absolute;
+        left: 40px;
+        bottom: 20px;
+        }
+    /* End run section here */
+    /* Start training section here */
+    
+    .Training-text-conainer h3{
+        width: 353px;
+        height: 76px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 19px;
+    }
+    
+    .Training-img-paren{
+        margin-left: 20px;
+        margin-top: 37px;
+    }
+    
+    .img-row-one{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .img-row-two{
+        display: grid;
+        grid-template-columns: 0.95fr 1.5fr; 
+    }
+    
+    #training-img-3{
+        display: none;
+        
+    }
+    #training-img-6{
+        display: none;
+    }
+    
+    
+    
+    .Training-text-conainer p{
+        width: 331px;
+        height: 72px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        margin-left: 19px;
+    }
+    
+    #training-p-1{
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        left: 10%;
+        top: 70%;
+        transform: translate:  (-50%,-50%); 
+        position:absolute;   
+    }
+    
+    
+    #training-p-2{
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        left: 10%;
+        top: 10%;
+        transform: translate:  (-50%,-50%);   
+    }
+    
+    
+    #training-p-4{
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        left: 10%;
+        top: 70%;
+        transform: translate:  (-50%,-50%); 
+        position:absolute;   
+    }
+    
+    #training-p-5{
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        left: 10%;
+        top: 70%;
+        transform: translate:  (-50%,-50%);
+        
+    }
+    
+    
+    
+    .img-row-one{
+        margin-top: 80px;
+    }
+    
+    /* End Training section */
+    /* Start bmi section */
+    #bmi-calculator-chart{
+        width: 394px;
+        height: 772px;
+        top: 2500px;
+        background: rgb(34, 34, 34);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .chart-left-side{
+        margin-left: 20px;
+    }
+    .chart-right-side{
+        margin-left: 20px;
+    }
+    
+    #bmi-calculate{
+        width: 353px;
+        height: 124px;
+    }
+    
+    
+    .chart-left-side{
+    position: absolute;
+    width: 310px;
+    height: 216px;
+    margin-left: 20px;
+    right: 64px;
+    margin: 30px 64px 480px 20px;
+    position: absolute;
+    }
+    
+    
+    .chart-right-side{
+        position: static;
+        width: 346px;
+        height: 105px;
+        left: 0px;
+        right: 64px;
+        margin-top: 300px;
+        position: absolute;
+    
+    }
+    
+    chart-right-side, h2, p{
+        margin-left: 20px;
+    }
+    
+    .banner-btn-1{
+        width: 224px;
+        height: 54px;
+        margin-left: 20px;
+    }
+    
+    .chart-input{
+        width: 150px;
+        height: 48px;
+    }
+    .chart-option{
+        width: 340px;
+        height: 48px;
+        margin-left: 20px;
+    }
+    
+    
+    .bmi-all-input{
+        width: 353px;
+        height: 168px;
+        padding: 12px 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+          
+    }
+    
+    
+    .team-img-parent{
+        width: 353px;
+        height: 820px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    .team-text-container{
+        width: 309px;
+        height: 124px;
+        margin-top: 66px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .team-img-parent img{
+        width: 95%;
+        height: 272px;  
+    }
+    
+    
+    /* Start footer section here */
+    #footer-section-parent{
+        width: 393px;
+        height: 986px;
+        background: rgba(255, 255, 255, 0.1);
+        left: 0;
+        text-align: left;
+        position: relative;
+    }
+    
+    
+    .footer-sub-parent{
+        width: 393px;
+        height: 986px;
+        background: rgba(255, 255, 255, 0.1);
+        flex-direction: column;
+        margin-top: 1100px;
+        left: 0;
+        text-align: left;
+        position: absolute;
+    }
+    
+    .horaizontal-rule{
+        position: absolute;
+        width: 354px;
+        background: rgb(185, 185, 185);
+        height: 0;
+        left: 19px;
+        top: 864px;
+        position: absolute;
+        margin: 0 auto;
+    }
+    
+    .hr-copy{
+        margin-top: 70px; 
+        
+    }
+    hr-copy footer-copyright{
+        width: 318px;
+        height: 24px;
+        left: 18px;
+        top: 905px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        position: absolute;  
+    }
+    
+    
+    
+    .footer-sub-parent{
+        width: 393px;
+        height: 986px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1080px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        padding: 70px;
+        /* margin: 66px 191px 177px 190px; */
+    }
+    #fitness{
+        padding-left: 0px;
+    }
+    
+    #fitness-p{
+        width: 317px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+    }
+    .footer-copyright{
+        width: 318px;
+        height: 24px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        position: absolute;
+        width: 318px;
+        left: 18px;
+        top: 1970px;
+        
+        }
+    
+        .horaizontal-rule{
+            color: rgba(255, 255, 255, 0.5);
+            width: 354px;
+            margin:0 auto;
+            top: 1990px;
+            
+        }
+        
+        /* .footer-copyright{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 20px 50px 15px;
+        
+        } */
+    
+    }
+    

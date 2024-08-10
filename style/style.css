@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .Lobster-font{
+    font-family: "Freehand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav and banner parent start here */
+.nav-parent{
+    max-width: 1060px;
+    height: 50px;
+    color: rgb(230, 83, 60);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+#fitness-home home-p{
+    color: rgb(230, 83, 60) ;
+    font-size: 18px;
+    font-weight: 600;
+}
+.fitness{
+    color: rgb(230, 83, 60) ;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* .home-p{
+    color: rgb(230, 83, 60) ;
+    font-size: 18px;
+    font-weight: 600;
+} */
+
+.home{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 35px;
+}
+
+.ham-burger{
+    display: none;
+}
+home, p{
+    
+    color:rgb(255, 255, 255) ;
+
+}
+
+.banner-section{
+    max-width: 1440px;
+    height: 715px;
+    background-image: url(./514504-plain-black.jpg);
+    margin: 0 auto;
+}
+
+.banner-container{
+    display: flex;
+    gap: 200px;
+    line-height: normal;
+
+}
+#banner-p{
+    color: rgba(255, 255, 255, 0.5);
+    line-height:normal;
+}
+.banner-text, p{
+    padding: 10px;
+}
+
+.banner-img{
+    width: 349px;
+    height: 580px;
+    margin-top: 88px;
+    position: relative;
+}
+
+.banner-text{
+    width: 600px;
+    height: 715px;
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    padding-left: 100px;
+}
+banner-text, h1{
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 67px;
+    
+}
+.banner-text, p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-class{
+    display: flex;
+    gap: 15px;
+}
+
+.banner-btn-1{
+    width: 224px;
+    height: 54px;
+    color: rgb(255, 255, 255);
+    padding: 16px 40px 16px 40px;
+    margin: 0px 14px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-btn-2{
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    margin: 0px 14px;
+    border-radius: 42px;
+    background-color: black;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+.btn-1{
+    width: 200px;
+    height: 120px;
+    padding-top: 10px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 180px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54); 
+}
+
+btn-1,h3{
+    font-size: 40px;
+    Font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+btn-1,p{
+    font-size: 13px;
+    Font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 10px;
+}
+
+.btn-2{
+    width: 206px;
+    height: 96px;
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 450px; 
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54); 
+    text-align: center;
+    justify-content: center;
+}
+
+.circle{
+    width: 35px;
+    height: 35px;
+    background-color: coral;
+    border-radius: 50px 50px 50px 50px ;
+    margin-top: -80px;
+    
+}
+
+.btn-1, .btn-2, h3{
+color: rgb(255, 255, 255);
+}
+
+/* end nav and banner section */
+
+/* Start habits section here */
+
+.habit-container{
+    max-width: 1044px;
+    height: 452px;
+    margin: 3rem auto;
+}
+
+.text-container{
+    width:671px ;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.text-container-p{
+    color: white;
+    text-align: center;
+}
+
+text-container-h2{
+    color: white;
+    text-align: center;   
+}
+
+.habit-img-parent{
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    text-align: center;
+}
+
+.habit-img-container{
+    width: 231px;
+    height: 274px;
+    margin-top: 50px;
+}
+#circle{
+    border-radius: 50% 50% 50% 50%;
+}
+/* habit section end here */
+
+/* Start run section here */
+
+#run-section-parent{
+    max-width: 1060px;
+    height: 371px;
+    background-color:rgb(34, 34, 34) ;
+    display: flex;
+    margin: 0 auto;
+    gap: 50px;
+    border-radius: 18px;
+}
+
+.run-text-container{
+    width: 443px;
+    height: 312px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+run-text-container,p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.run-img-container{
+    width: 366px;
+    height: 312px;
+    margin: 30px auto;
+}
+
+#run-img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
+#rub-button{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    border: none;
+}
+/* End run section here */
+/* Start training section here */
+
+.Training-section-parent{
+    max-width: 1060px;
+    max-height: 581px;
+    margin: 100px auto;
+}
+.Training-text-conainer p{
+    width: 670px;
+    height: 100px;
+    color: white;
+}
+.img-row-one img{
+    background-color:rgba(255, 255, 255, 0.10);
+    background-blend-mode: overlay;
+}
+#training-img-1{
+    width: 100%;
+    height: 200px;
+    
+}
+
+#training-p-1{
+    font-size: 15px;
+    color: black;
+    left: 10%;
+    top: 70%;
+    transform: translate:  (-50%,-50%); 
+    position:absolute;   
+}
+
+
+#training-img-2{
+    width: 100%;
+    height: 200px; 
+}
+#training-p-2{
+    left: 10%;
+    top: 10%;
+    transform: translate:  (-50%,-50%);   
+}
+
+#training-img-3{
+    width: 100%;
+    height: 200px;
+    
+}
+#training-p-3{
+    color: red;
+    left: 10%;
+    top: 60%;
+    transform: translate:  (-50%,-50%);   
+}
+
+#training-img-4{
+    width: 100%;
+    height: 200px;
+    
+}
+#training-p-4{
+    color: red;
+    left: 70%;
+    top: 10%;
+    transform: translate:  (-50%,-50%);
+}
+
+#training-img-5{
+    width: 100%;
+    height: 200px;
+    
+}
+#training-p-5{
+    font-size: 15px;
+    left: 10%;
+    top: 70%;
+    transform: translate:  (-50%,-50%);
+    
+}
+
+
+#training-img-6{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0,0,0,0,10);
+    background-blend-mode: overlay;
+    
+}
+#training-p-6{
+    color: black;
+    font-size: 15px;
+    left: 10%;
+    top: 70%;
+    transform: translate:  (-50%,-50%);
+}   
+
+.img-row-one{
+    display: grid;
+    grid-template-columns: 0.40fr 1fr 0.60fr;
+}
+
+.img-row-two{
+    display: grid;
+    grid-template-columns: 1fr .50fr 0.60fr; 
+}
+
+.training-card-1,
+.training-card-2,
+.training-card-3,
+.training-card-4,
+.training-card-5,
+.training-card-6{
+position: relative;
+}
+
+.img-row-one p{
+    font-size: 15px;
+    left: 50%;
+    top: 50%;
+    transform: translate:  (-50%,-50%); 
+    position:absolute;   
+}
+.img-row-two p{
+    font-size: 15px;
+    left: 50%;
+    top: 50%;
+    transform: translate:  (-50%, -50%); 
+    position:absolute;       
+}
+
+/* End training section here */
+/* Star bmi section here */
+
+
+#bmi-calculator-chart{
+    width: 1440px;
+    height: 487px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 175px;
+    background: rgb(34, 34, 34);
+}
+
+#bmi-calculate{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.bmi-calculate, h2{
+    text-align: left;
+    color: white;
+    margin: 14px 0px;
+    font-size: large;
+    font-weight: 800;
+}
+.bmi-calculate, p{
+    text-align: left;
+    color: aliceblue;
+}
+
+.chart-right-side{
+    width: 577px;
+    height: 385px;
+    margin-top: 100px;
+    margin-right: 180px;
+}
+
+.chart-left-side{
+    margin-top: 100px;
+    margin-left: 190px;
+}
+.chart-left-side h2{
+    text-align: left;
+    color: aliceblue;
+    margin: 14px 0px;
+    font-size: large;
+    font-weight: 800;
+}
+
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 0.5px solid white;
+    padding: 5px 10px ;
+    color: white;
+}
+
+.bmi-all-input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    
+    
+}
+
+.chart-input{
+    width: 250px;
+    height: 24px;
+    padding: 12px 40px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.chart-option{
+    width: 550px;
+    height: 24px;
+    padding: 12px 20px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* End bmi section here */
+/* Start team section here */
+
+.team-text-container{
+
+    width: 671px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team-img-parent{
+    width: 1060px;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   
+}
+
+.team-img{
+ position: relative;
+}
+
+.team-img-parent img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+
+}
+#team-h5{
+   color:rgb(255, 255, 255) ; 
+    font-size:20px;
+    font-weight: 500;
+    left: 20%;
+    top: 80%;
+    transform: translate: (-50%, -50%);
+    position: absolute;
+}
+#team-p{
+   color:rgb(156, 144, 144) ; 
+    font-size:10px;
+    font-weight: 500;
+    line-height: 50px;
+    left: 20%;
+    top: 80%;
+    transform: translate: (-50%, -50%);
+    position: absolute;
+}
+/* End team section here */
+/* Start footer section here */
+
+#footer-section-parent{
+    width: 1440px;
+    height: 490px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+.footer-sub-parent{
+    width: 1060px;
+    height: 300px; 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    padding: 70px;
+    /* margin: 66px 191px 177px 190px; */
+}
+
+.div-1{
+    width: 443px;
+    height: 176px;
+}
+.div-1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.div-1 h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.div-2{
+    width: 200px;
+    height: 249px;
+}
+.div-2 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.div-3 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.div-2 h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left; 
+}
+.div-3{
+    width: 200px;
+    height: 249px;
+}
+.div-3 h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.horaizontal-rule{
+    width: 1059px;
+    margin:0 auto;
+    
+    
+}
+
+.footer-copyright{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px 50px 15px;
+
+}
+
+/* End footer section here */
