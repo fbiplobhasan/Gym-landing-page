@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
-  .Lobster-font{
-    font-family: "Freehand", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+
+  .Miama-font{
+    font-family: 'Miama', sans-serif;
+    Font-weight: 900;
+    Font-size: 120px;
+    Row-height: 1px;
+    Letter-spacing: 0%;
+    Align-left;
 }
 
 body{
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: black;
 }
 
@@ -23,15 +30,24 @@ body{
     box-sizing: border-box;
 }
 
-/* nav and banner parent start here */
+
+/* nav and banner section start here */
+
+.banner-section{
+    max-width: 1060px;
+    max-height: 715px;
+    margin: 0 auto;
+}
+
+
 .nav-parent{
     max-width: 1060px;
-    height: 50px;
+    margin: 0 auto;
+    height: 47px;
     color: rgb(230, 83, 60);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto;
     align-items: center;
     margin-top: 50px;
     position: relative;
@@ -67,6 +83,8 @@ body{
     display: flex;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 35px;
+    padding-left: 4px;
+    padding-right: 10px;
 }
 
 .ham-burger{
@@ -78,10 +96,13 @@ home, p{
 
 }
 
+/* End nav section here */
+
+
 /* Start banner section here */
 
 .banner-section{
-    max-width: 1440px;
+    max-width: 1060px;
     height: 715px;
     background-image: url(./514504-plain-black.jpg);
     margin: 0 auto;
@@ -111,14 +132,11 @@ home, p{
 .banner-text{
     width: 600px;
     height: 715px;
-    margin-left: 20px;
     padding: 10px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px;
-    padding-left: 100px;
+    margin-top: 96px;
 }
 banner-text, h1{
     width: 600px;
@@ -129,9 +147,14 @@ banner-text, h1{
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
-    padding-left: 67px;
+    margin-bottom: 28px;
     
 }
+
+#banner-p{
+margin-bottom: 28px;
+}
+
 .banner-text, p{
     color: rgba(255, 255, 255, 0.5);
 }
@@ -140,6 +163,17 @@ banner-text, h1{
     display: flex;
     gap: 15px;
 }
+
+#three-hundred-fiftee{
+    margin-bottom: 15px;
+}
+
+#three-hundred-fiftee-p{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
 
 .banner-btn-1{
     width: 224px;
@@ -232,6 +266,7 @@ btn-1,p{
 color: rgb(255, 255, 255);
 }
 
+
 /* end nav and banner section */
 
 /* Start habits section here */
@@ -268,6 +303,24 @@ color: rgb(255, 255, 255);
         align-items: center;
         text-align: center;   
 } */
+.text-container-h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.text-container-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
 
 .habit-img-parent{
     display: grid;
@@ -279,6 +332,16 @@ color: rgb(255, 255, 255);
     width: 231px;
     height: 274px;
     margin-top: 50px;
+}
+.habit-img-container h5{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 30px;
 }
 #circle{
     border-radius: 50% 50% 50% 50%;
@@ -292,7 +355,7 @@ color: rgb(255, 255, 255);
     height: 371px;
     background-color:rgb(34, 34, 34) ;
     display: flex;
-    margin: 0 auto;
+    margin: 100px auto;
     gap: 50px;
     border-radius: 18px;
 }
@@ -334,6 +397,9 @@ run-text-container,p{
     width: 366px;
     height: 312px;
     border-radius: 18px;
+    object-fit: none;
+    object-position: 72% 31%;
+
 }
 
 #rub-button{
@@ -358,14 +424,20 @@ run-text-container,p{
     margin: 100px auto;
 }
 .Training-text-conainer p{
-    width: 670px;
-    height: 100px;
-    color: white;
+    width: 671px;
+    height: 120px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    text-align: left;
 }
+
 .img-row-one img{
     background-color:rgba(255, 255, 255, 0.10);
     background-blend-mode: overlay;
 }
+
+
+
 #training-img-1{
     width: 100%;
     height: 200px;
@@ -482,7 +554,34 @@ position: relative;
 /* End training section here */
 /* Star bmi section here */
 
+#bmi-calculate{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+}
 
+#bmi-calculate h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}  
+
+#bmi-calculate p{
+    width: 671px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+
+}
 #bmi-calculator-chart{
     width: 1440px;
     height: 487px;
@@ -493,11 +592,7 @@ position: relative;
     background: rgb(34, 34, 34);
 }
 
-#bmi-calculate{
-    width: 671px;
-    height: 120px;
-    margin: 0 auto;
-}
+
 
 .bmi-calculate, h2{
     text-align: left;
