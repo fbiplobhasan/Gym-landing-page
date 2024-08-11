@@ -36,24 +36,34 @@ body{
     margin-top: 50px;
     position: relative;
 }
-#fitness-home home-p{
-    color: rgb(230, 83, 60) ;
+#home{
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+    border-radius: 46px;
+    font-family: Inter;
     font-size: 18px;
     font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 8px 20px 8px 20px;
+}
+.home-menu p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
 }
 .fitness{
     color: rgb(230, 83, 60) ;
     font-size: 36px;
     font-weight: 800;
 }
-
-/* .home-p{
-    color: rgb(230, 83, 60) ;
-    font-size: 18px;
-    font-weight: 600;
-} */
-
-.home{
+.home-menu{
     display: flex;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 35px;
@@ -67,6 +77,8 @@ home, p{
     color:rgb(255, 255, 255) ;
 
 }
+
+/* Start banner section here */
 
 .banner-section{
     max-width: 1440px;
@@ -238,19 +250,24 @@ color: rgb(255, 255, 255);
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: white;
     
 }
 
-.text-container-p{
+/* .text-container-p{
     color: white;
     text-align: center;
 }
 
-text-container-h2{
-    color: white;
-    text-align: center;   
-}
+.text-container-h2{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;   
+} */
 
 .habit-img-parent{
     display: grid;
@@ -518,7 +535,7 @@ table{
 }
 th,td{
     border: 0.5px solid white;
-    padding: 5px 10px ;
+    padding: 10px 30px ;
     color: white;
 }
 
@@ -533,7 +550,7 @@ th,td{
 .chart-input{
     width: 250px;
     height: 24px;
-    padding: 12px 40px 20px;
+    padding: 20px 40px 20px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     border: none;
@@ -542,7 +559,7 @@ th,td{
 .chart-option{
     width: 550px;
     height: 24px;
-    padding: 12px 20px 20px;
+    padding: 20px 20px 20px;
     background: rgba(255, 255, 255, 0.1);
     margin-top: 20px;
     margin-bottom: 20px;
