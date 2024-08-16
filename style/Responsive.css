@@ -205,6 +205,16 @@
         left: 40px;
         bottom: 20px;
         }
+
+        #run-img{
+            width: 250px;
+            height: 170px;
+            position: absolute;
+            border-radius: 18px;
+            object-fit: none;
+            object-position: 48% 5%;
+        
+        }
     /* End run section here */
     /* Start training section here */
     
@@ -324,7 +334,7 @@
 
     #bmi-calculator-chart{
         width: 394px;
-        height: 772px;
+        height: 850px;
         top: 2500px;
         background: rgb(34, 34, 34);
         display: flex;
@@ -342,18 +352,29 @@
         letter-spacing: 0%;
         text-align: left;
     }
+
+    .bmi-text-container h2{
+        margin-top: 0px;   
+       }
+       
     #bmi-calculate p{
         width: 353px;
         height: 72px;
     
     }
     
-    .chart-left-side{
-        margin-left: 20px;
-    }
+
     .chart-right-side{
         margin-left: 20px;
     }
+
+    .chart-right-side{
+        width: 577px;
+        height: 385px;
+        margin-top:0px;
+        margin-right:0px;
+    }
+    
     
     
     
@@ -372,9 +393,10 @@
         position: static;
         width: 346px;
         height: 105px;
-        left: 0px;
+        left: 50px;
+        margin: 0 auto;
         right: 64px;
-        margin-top: 300px;
+        margin-top: 370px;
         position: absolute;
     
     }
@@ -389,14 +411,19 @@
         margin-left: 20px;
     }
     
-    .chart-input{
+    #chart-input{
         width: 150px;
         height: 48px;
     }
-    .chart-option{
-        width: 340px;
-        height: 48px;
+    #chart-input-option-1{
+        width: 150px;
+        height: 55px;
+    }
+    #chart-input-option-2{
+        width: 330px;
+        height: 55px;
         margin-left: 20px;
+        margin-top: 0px;
     }
     
     
@@ -427,6 +454,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .team-text-container p{
+       margin-left: 0px 0px; 
     }
     
     .team-img-parent img{
@@ -501,16 +531,72 @@
         /* margin: 66px 191px 177px 190px; */
     }
     #fitness{
+        width: 256px;
+        height: 84px;
         padding-left: 0px;
     }
     
     #fitness-p{
-        width: 317px;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: start;
+        width: 280px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    .div-2{
+        width: 200px;
+        height: 249px;
+        margin-top: 50px;
+    }
+    .div-2 p{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .div-3 p{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .div-2 h4{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left; 
+    }
+    .div-3{
+        width: 200px;
+        height: 249px;
+    }
+    .div-3 h4{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
     }
     .footer-copyright{
         width: 318px;
@@ -528,14 +614,35 @@
         top: 1970px;
         
         }
-    
+
+
+        .hr-copy{
+            position: relative;
+        }
+
         .horaizontal-rule{
-            color: rgba(255, 255, 255, 0.5);
             width: 354px;
             margin:0 auto;
-            top: 1990px;
+            top: 2000px;
+            position: absolute;
+            margin-left: 20px;
+            
             
         }
+        
+        .footer-copyright{
+            color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 20px 50px 15px;
+            position: absolute;
+            margin-left: 35px;
+        
+        }
+        
+
         
         /* .footer-copyright{
             color: white;

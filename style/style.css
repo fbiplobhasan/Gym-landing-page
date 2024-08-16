@@ -37,6 +37,7 @@ body{
     max-width: 1060px;
     max-height: 715px;
     margin: 0 auto;
+    background-image: linear-gradient(to bottom, #000000, #202020, #3b393b, #565558, #737377, #727478, #717479, #70757a, #53595c, #383e40, #1f2525, #020b0a);
 }
 
 
@@ -609,20 +610,24 @@ position: relative;
 .chart-right-side{
     width: 577px;
     height: 385px;
-    margin-top: 100px;
     margin-right: 180px;
+}
+.bmi-text-container h2{
+ margin-top: 20px;   
 }
 
 .chart-left-side{
-    margin-top: 100px;
     margin-left: 190px;
 }
 .chart-left-side h2{
+    margin: 20px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
     text-align: left;
-    color: aliceblue;
-    margin: 14px 0px;
-    font-size: large;
-    font-weight: 800;
 }
 
 table{
@@ -637,36 +642,90 @@ th,td{
 .bmi-all-input{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    
-    
+    gap: 15px;  
 }
 
-.chart-input{
+#chart-input{
     width: 250px;
     height: 24px;
-    padding: 20px 40px 20px;
+    padding: 28px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     border: none;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-.chart-option{
+#chart-input-option-1{
+    width: 250px;
+    height: 55px;
+    padding: 20px 40px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none; 
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#chart-input-option-2{
+    width: 550px;
+    height: 55px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;  
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+
+#chart-input .chart-option{
+    padding: 20px 20px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;  
+
+}
+.chart-input{
+    padding: 20px 20px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;   
+
+}
+#chart-option{
     width: 550px;
     height: 24px;
-    padding: 20px 20px 20px;
     background: rgba(255, 255, 255, 0.1);
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     border: none;
+    padding: 20px 20px 20px;
+}
+    
+
+.bmi-text-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bmi-text-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
 }
 
 /* End bmi section here */
 /* Start team section here */
 
 .team-text-container{
-
     width: 671px;
     height: 120px;
     display: flex;
@@ -675,6 +734,26 @@ th,td{
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    margin-top:100px ;
+    margin-bottom:100px ;
+}
+.team-text-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;  
+}
+.team-text-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
 }
 
 .team-img-parent{
@@ -812,17 +891,21 @@ th,td{
 .horaizontal-rule{
     width: 1059px;
     margin:0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
     
     
 }
 
 .footer-copyright{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 20px 50px 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin: 80px 20px 50px 600px;
+    color: rgba(255, 255, 255, 0.5);
 
 }
 
